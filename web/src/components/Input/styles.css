@@ -2,7 +2,7 @@
     position: relative;
 }
 
-/* + => todo .input-block que vem depois de .input-block */
+/* operador + => todo .input-block que vem depois de um .input-block */
 .input-block + .input-block {
     margin-top: 1.4rem;
 }
