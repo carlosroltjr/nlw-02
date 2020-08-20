@@ -3,6 +3,7 @@ import React from 'react'
 import PageHeader from '../../components/PageHeader'
 import TeacherItem from '../../components/TeacherItem'
 import Input from '../../components/Input'
+import Select from '../../components/Select'
 
 import './styles.css'
 
@@ -11,8 +12,38 @@ function TeacherList() {
         <div id="page-teacher-list" className="container">
             <PageHeader title="Estes são os proffys disponíveis.">
                 <form id="search-teachers">
-                    <Input name="subject" label="Matéria" />
-                    <Input name="week_day" label="Dia da semana" />
+                    <Select
+                        name="subject"
+                        label="Matéria"
+                        options={[
+                            { value: 'Artes', label: 'Artes' },
+                            { value: 'Biologia', label: 'Biologia' },
+                            { value: 'Computação', label: 'Computação' },
+                            { value: 'Educação física', label: 'Educação física' },
+                            { value: 'Espanhol', label: 'Espanhol' },
+                            { value: 'Física', label: 'Física' },
+                            { value: 'Geografia', label: 'Geografia' },
+                            { value: 'História', label: 'História' },
+                            { value: 'Inglês', label: 'Inglês' },
+                            { value: 'Matemática', label: 'Matemática' },
+                            { value: 'Música', label: 'Música' },
+                            { value: 'Português', label: 'Português' },
+                            { value: 'Química', label: 'Química' }
+                        ]}
+                    />
+                    <Select
+                        name="week_day"
+                        label="Dia da Semana"
+                        options={[
+                            { value: '0', label: 'Domingo' },
+                            { value: '1', label: 'Segunda-feira' },
+                            { value: '2', label: 'Terça-feira' },
+                            { value: '3', label: 'Quarta-feira' },
+                            { value: '4', label: 'Quinta-feira' },
+                            { value: '5', label: 'Sexta-feira' },
+                            { value: '6', label: 'Sábado' }
+                        ]}
+                    />
                     <Input type="time" name="time" label="Hora" />
                 </form>
             </PageHeader>
@@ -34,6 +65,15 @@ function TeacherList() {
                     description1="Poliglota por consequência, curiosa de nascença."
                     description2="Tem um espírito livre e jovem, ama viajar e conhecer novas culturas. Atualmente, domina mais de 5 idiomas e está em busca de aprender muito mais e compartilhar o conhecimento com você"
                     price="R$ 120,00"
+                />
+
+                <TeacherItem
+                    avatar="https://instagram.ffln1-1.fna.fbcdn.net/v/t51.2885-19/s150x150/52416039_572100413309523_4096855864978178048_n.jpg?_nc_ht=instagram.ffln1-1.fna.fbcdn.net&_nc_ohc=cFl6Reh_4RYAX-9TgK4&oh=fbdb563c642ba70e9e8585d4de90cde1&oe=5F68544B"
+                    name="Felipe Nardi"
+                    subject="Meditação"
+                    description1="Conhecedor das artes milenares hinduístas"
+                    description2="Tem controle total sobre suas emoções. Praticante assíduo de yoga, ele vai te ensinar a ter foco, leveza e controlar sua raiva através da técnica dos 8 portões de chakra. "
+                    price="R$ 75,00"
                 />
             </main>
         </div>
