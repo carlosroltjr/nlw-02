@@ -53,8 +53,7 @@ function TeacherList() {
                     avatar="https://lh3.googleusercontent.com/a-/AOh14GiSPKohT4i0sNJc6GNeLKIxxFuPjkcaqaA0-LC3QA=s96-c-rg-br100"
                     name="Carlos Roberto De Rolt Jr."
                     subject="Violão"
-                    description1="Entusiasta das melhores músicas de anime."
-                    description2="Grande conhecedor de Naruto e mestre da música erudita, você vai aprender os melhores hits da vila oculta da folha com grande classe e arranjos únicos."
+                    description="Entusiasta das melhores músicas de anime. Grande conhecedor de Naruto e mestre da música erudita, você vai aprender os melhores hits da vila oculta da folha com grande classe e arranjos únicos."
                     price="R$ 80,00"
                 />
 
@@ -62,8 +61,7 @@ function TeacherList() {
                     avatar="https://media-exp1.licdn.com/dms/image/C5603AQGbssztv_gZfA/profile-displayphoto-shrink_200_200/0?e=1602720000&v=beta&t=kKKPTyUQBQt77-Fpj0nLOsKMyDsiXb5FUIkl7Fz1heI"
                     name="Nadya Vicentini"
                     subject="Inglês"
-                    description1="Poliglota por consequência, curiosa de nascença."
-                    description2="Tem um espírito livre e jovem, ama viajar e conhecer novas culturas. Atualmente, domina mais de 5 idiomas e está em busca de aprender muito mais e compartilhar o conhecimento com você"
+                    description="Poliglota por consequência, curiosa de nascença. Tem um espírito livre e jovem, ama viajar e conhecer novas culturas. Atualmente, domina mais de 5 idiomas e está em busca de aprender muito mais e compartilhar o conhecimento com você"
                     price="R$ 120,00"
                 />
 
@@ -71,8 +69,7 @@ function TeacherList() {
                     avatar="https://instagram.ffln1-1.fna.fbcdn.net/v/t51.2885-19/s150x150/52416039_572100413309523_4096855864978178048_n.jpg?_nc_ht=instagram.ffln1-1.fna.fbcdn.net&_nc_ohc=cFl6Reh_4RYAX-9TgK4&oh=fbdb563c642ba70e9e8585d4de90cde1&oe=5F68544B"
                     name="Felipe Nardi"
                     subject="Meditação"
-                    description1="Conhecedor das artes milenares hinduístas"
-                    description2="Tem controle total sobre suas emoções. Praticante assíduo de yoga, ele vai te ensinar a ter foco, leveza e controlar sua raiva através da técnica dos 8 portões de chakra. "
+                    description="Conhecedor das artes milenares hinduístas. Tem controle total sobre suas emoções. Praticante assíduo de yoga, ele vai te ensinar a ter foco, leveza e controlar sua raiva através da técnica dos 8 portões de chakra."
                     price="R$ 75,00"
                 />
             </main>

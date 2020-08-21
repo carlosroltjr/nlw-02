@@ -8,8 +8,7 @@ interface TeacherItemProps {
     avatar: string
     name: string
     subject: string
-    description1: string
-    description2: string
+    description: string
     price: string
 }
 
@@ -25,9 +24,7 @@ const TeacherItem: React.FunctionComponent<TeacherItemProps> = (props) => {
             </header>
 
             <p>
-                {props.description1}
-                <br /><br />
-                {props.description2}
+                {props.description}
             </p>
 
             <footer>
