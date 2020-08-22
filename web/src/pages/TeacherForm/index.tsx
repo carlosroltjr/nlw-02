@@ -23,13 +23,13 @@ function TeacherForm() {
     const [cost, setCost] = useState('')
 
     const [scheduleItems, setScheduleItems] = useState([
-        { week_day: Math.random(), from: '', to: '' }
+        { week_day: 0, from: '', to: '' }
     ])
 
     function addNewScheduleItem() {
         setScheduleItems([
             ...scheduleItems,
-            { week_day: Math.random(), from: '', to: '' }
+            { week_day: 0, from: '', to: '' }
         ])
     }
 
