@@ -1,6 +1,7 @@
+import { StyleSheet } from 'react-native'
+
 import { Poppins_400Regular } from '@expo-google-fonts/poppins';
 import { Archivo_700Bold, Archivo_400Regular } from '@expo-google-fonts/archivo';
-import { StyleSheet } from 'react-native'
 
 const styles = StyleSheet.create({
     container: {
